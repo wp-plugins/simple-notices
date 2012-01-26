@@ -24,6 +24,8 @@ Five colors are included:
 * Green
 * Gray
 
+Go to the [plugin's home page](http://pippinsplugins.com/rsimple-notices-plugin) for a demonstration video.
+
 == Installation ==
 
 1. Upload simple-notices to wp-content/plugins
@@ -33,7 +35,6 @@ Five colors are included:
 
  == Screenshots ==
  
-Go to the [plugin's home page](http://pippinsplugins.com/rsimple-notices-plugin) for a demonstration video.
 
 1. Notices post type admin
 2. Blue color scheme
