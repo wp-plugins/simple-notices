@@ -24,7 +24,7 @@ Five colors are included:
 * Green
 * Gray
 
-Go to the [plugin's home page](http://pippinsplugins.com/rsimple-notices-plugin) for a demonstration video.
+Go to the [plugin's home page](http://pippinsplugins.com/simple-notices-plugin) for a demonstration video.
 
 == Installation ==
 
