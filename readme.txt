@@ -6,7 +6,7 @@ Donate link: http://pippinsplugins.com/support-the-site/
 Tags: notice, notification, simple, notices, announce, announcement, mordauk, Pippin Williamson
 Requires at least 3.0
 Tested up to 3.3.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 
 A simple plugin that adds a notification system to your WordPress. Via custom post types, Simple Notices gives you a way to make announcements that are displayed site-wide at the top of your site.
 
