@@ -45,8 +45,20 @@ Go to the [plugin's home page](http://pippinsplugins.com/simple-notices-plugin) 
 
 == Changelog ==
 
+= 1.0.2 =
+
+Updated CSS to work better with Twenty Evelen Dark theme.
+
+= 1.0.1 =
+
+Minor bug fix.
+
 = 1.0 =
 
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.2 =
+
+Updated CSS to work better with Twenty Evelen Dark theme.
