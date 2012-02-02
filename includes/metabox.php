@@ -15,7 +15,13 @@ $sn_meta_box = array(
         	'type' => 'select',
         	'desc' => __('Choose the notice color', 'simple-notices'),
 			'options' => array('Blue', 'Red', 'Orange', 'Green', 'Gray')
-     	)		
+     	),
+		array(
+        	'name' => __('Logged In Users', 'rcp'),
+        	'id' => '_notice_for_logged_in_only',
+        	'type' => 'checkbox',
+        	'desc' => __('Logged-in users only', 'simple-notices')
+     	)
     )
 );
 
@@ -43,7 +49,7 @@ function sn_render_meta_box() {
         $meta = get_post_meta($post->ID, $field['id'], true);
         
         echo '<tr>';
-            echo '<td style="width:20%"><label for="', $field['id'], '">', $field['name'], '</label></td>';
+			echo '<td>', $field['desc'], '</td>';
             echo '<td>';
 				switch ($field['type']) {
 					case 'select':
@@ -57,8 +63,7 @@ function sn_render_meta_box() {
 						echo '<input type="checkbox" value="1" name="', $field['id'], '" id="', $field['id'], '"', $meta ? ' checked="checked"' : '', ' />';
 						break;
 				}
-			echo '</td>';
-			echo '<td>', $field['desc'], '</td>';
+			echo '</td>';			
         echo '</tr>';
     }
     

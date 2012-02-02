@@ -3,7 +3,7 @@
 Plugin Name: Simple Notices
 Plugin URL: http://pippinsplugins.com/simple-notices-plugin
 Description: A simple notices plugin for WordPress
-Version: 1.0.2
+Version: 1.0.3
 Author: Pippin Williamson
 Author URI: http://pippinsplugins.com
 Contributors: mordauk

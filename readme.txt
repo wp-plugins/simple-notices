@@ -6,7 +6,7 @@ Donate link: http://pippinsplugins.com/support-the-site/
 Tags: notice, notification, simple, notices, announce, announcement, mordauk, Pippin Williamson
 Requires at least 3.0
 Tested up to 3.3.1
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 
 A simple plugin that adds a notification system to your WordPress. Via custom post types, Simple Notices gives you a way to make announcements that are displayed site-wide at the top of your site.
 
@@ -15,6 +15,8 @@ A simple plugin that adds a notification system to your WordPress. Via custom po
 A simple plugin that adds a notification system to your WordPress. Via custom post types, Simple Notices gives you a way to make announcements that are displayed site-wide at the top of your site.
 
 Notices are displayed with fixed positioning, meaning that they will overlap the rest of your site's contents. Each notice includes a close button that allows the current user to hide the notice. If the user is logged in, the notice ID will be permanently stored in their user meta, and so will never shown again. If the user is not logged in, the ID of the notice will be stored in a cookie.
+
+Notices can be set to only be shown to logged-in users.
 
 Five colors are included:
 
@@ -45,6 +47,10 @@ Go to the [plugin's home page](http://pippinsplugins.com/simple-notices-plugin) 
 
 == Changelog ==
 
+= 1.0.3 =
+
+Added an option to show notices to logged-in users only.
+
 = 1.0.2 =
 
 Updated CSS to work better with Twenty Evelen Dark theme.
@@ -58,6 +64,10 @@ Minor bug fix.
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.0.3 =
+
+Added an option to show notices to logged-in users only.
 
 = 1.0.2 =
 
