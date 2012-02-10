@@ -1,7 +1,7 @@
 jQuery(document).ready( function($) {
 
 	// notication is present
-	if ($("#notification-area").length > 0) {
+	if ($("#notification-area").length && notices_ajax_script.logged_in == 'no') {
 		var notice_id = $('#notification-area #remove-notice').attr('rel');
 		if(!$.cookie('notice-' + notice_id)) {
 			$('#notification-area').show();
