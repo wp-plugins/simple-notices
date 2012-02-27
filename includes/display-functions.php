@@ -14,7 +14,7 @@ function pippin_display_notice() {
 					<div id="notification-area" class="<?php echo strtolower(get_post_meta($notice->ID, '_notice_color', true)); ?> hidden">
 						<a class="remove-notice" href="#" id="remove-notice" rel="<?php echo $notice->ID; ?>"><?php _e('X', 'simple-notices'); ?></a>
 						<h3><?php echo get_the_title($notice->ID); ?></h3>					
-						<?php echo do_shortcode(wpautop($notice->post_content)); ?>
+						<?php echo do_shortcode(wpautop(__($notice->post_content))); ?>
 					</div>
 				<?php } 
 			}			
