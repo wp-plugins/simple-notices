@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Simple Notices
-Plugin URL: http://pippinsplugins.com/simple-notices-plugin
+Plugin URI: http://pippinsplugins.com/simple-notices-plugin
 Description: A simple notices plugin for WordPress
 Version: 1.0.6
 Author: Pippin Williamson

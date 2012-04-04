@@ -1,5 +1,6 @@
 === Simple Notices ===
 Author URI: http://pippinsplugins.com
+Plugin URI: http://pippinsplugins.com/simple-notices-plugin
 Author: Pippin Williamson
 Contributors: mordauk
 Donate link: http://pippinsplugins.com/support-the-site/
